@@ -1,0 +1,490 @@
+@charset 'UTF-8';
+
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* Header Section  */
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+
+.logo-menu {
+    display: none;
+}
+
+
+
+.logo-img {
+    width: 30px;
+    height: auto;
+    padding: 0 26px;
+    vertical-align: middle;
+}
+
+.header {
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.header-list {
+    list-style: none;
+}
+
+.header-list li {
+    display: inline-block;
+    margin-right: 32px;
+
+}
+
+.header-list a {
+    font-weight: 600;
+    line-height: 4.3rem;
+    font-size: 1.4rem;
+    color: #484848;
+}
+
+
+.header-icon {
+
+    color: #484848;
+    position: absolute;
+    font-size: 2rem;
+    top: 14px;
+    font-weight: 600;
+    left: 15px;
+
+
+}
+
+
+.header-search {
+    position: relative;
+    display: inline-block;
+}
+
+.site-search {
+    border: 1px solid rgb(235, 235, 235);
+    box-sizing: border-box;
+    width: 460px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    outline: none;
+    padding: 8px 0;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 1.7rem;
+    color: #484848;
+    padding-left: 40px;
+}
+
+/* cta Setion */
+
+.main .wrapper {
+    max-width: 1034px;
+}
+
+.main {
+    background: url(/img/main.jpg) no-repeat center;
+    background-size: cover;
+    text-align: left;
+
+}
+
+.main-container {
+    padding-top: 200px;
+    padding-bottom: 225px;
+    box-sizing: border-box;
+
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.6rem;
+    line-height: 52px;
+    color: #fff;
+    margin-bottom: 16px;
+    padding: 8px 0;
+}
+
+.main-text {
+    font-size: 1.8rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 45px;
+
+}
+
+.btn {
+    padding: 12px 20px;
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: #484848;
+    line-height: 48px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.btn-thin {
+    padding: 9px 27px;
+}
+
+.btn-colory {
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+
+/* Cta Section */
+.appeal {
+    padding: 45px 0 48px;
+    text-align: center;
+
+}
+
+.appeal-title {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 35px;
+    color: #484848;
+    margin-bottom: 35px;
+}
+
+.apple-points {
+    text-align: center;
+
+}
+
+
+.appeal-point {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+
+}
+
+.appeal-point-icon {
+    font-size: 5rem;
+    color: #007a87;
+    line-height: 5rem;
+    margin-bottom: 23px;
+}
+
+.appeal-point-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 20px;
+    color: #484848;
+    margin-bottom: 23px;
+}
+
+.appeal-point-text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 23px;
+    color: #767676;
+    width: 95%;
+    display: block;
+}
+
+
+/* Section appeal 2 */
+
+.appeal-2 {
+    text-align: center;
+    padding: 47px 0 50px;
+    background-color: #007A87;
+}
+
+.appeal-2-img {
+    margin-bottom: 27px;
+}
+
+.appeal-2-title {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #fff;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.appeal-2-text {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 44px;
+}
+
+.btn-info {
+    margin-top: 16px;
+    display: block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #fff;
+    opacity: .6;
+}
+
+/* Footer list */
+
+.footer {
+    padding: 48px 0 20px;
+}
+
+.footer-info {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 8px;
+}
+
+
+.footer-list {
+    list-style: none;
+    margin-right: 86px;
+}
+
+.footer-list-title {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: #484848;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.footer-list a {
+    font-size: 1.4rem;
+    line-height: 18px;
+    font-weight: 600;
+    color: #767676;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.footer-icon {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    margin-right: 14px;
+}
+
+.right-padding {
+    padding-left: 25px;
+}
+
+.btn-small {
+    padding: 8px 12px;
+    border: 1px solid rgb(242, 242, 242);
+    font-size: 1.4rem;
+    line-height: 18px;
+    font-weight: 400;
+    color: #484848;
+    margin-right: 12px;
+
+}
+
+
+.footer-logo {
+    width: 20px;
+    height: 20px;
+    filter: grayscale(100%);
+    margin-right: 7px;
+}
+
+.copyright {
+    line-height: 18px;
+    font-size: 1.4rem;
+    color: #767676;
+    vertical-align: middle;
+}
+
+
+.footer-end-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0 20px;
+
+}
+
+.footer-buttons {
+    padding-top: 16px;
+}
+
+.footer .wrapper {
+    padding: 0 30px;
+}
+
+.new-content::after {
+    content: '新着';
+    font-weight: 600;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0 4px;
+    display: inline-block;
+    background-color: #006A70;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+/* Responsive  */
+@media (max-width:768px) {
+    .header {
+        padding: 10px 0;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .site-search {
+        width: 90%;
+        border-radius: 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .logo-menu {
+        display: inline-block;
+        font-size: 1rem;
+        line-height: 14px;
+        color: #767676;
+        margin-left: -20px;
+        margin-right: 16px;
+    }
+
+    .main-container {
+        padding: 107.5px 12px 92px;
+    }
+
+    .main-title {
+        font-size: 3.8rem;
+        line-height: 44px;
+    }
+
+    .main-text {
+        margin-bottom: 32px;
+    }
+
+    .appeal {
+        text-align: center;
+    }
+
+    .appeal-title {
+        font-size: 3rem;
+        line-height: 33px;
+
+    }
+
+    .appeal-point {
+        text-align: center;
+    }
+
+
+    .appeal-point {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .appeal-point-text {
+        width: 95%;
+        display: inline-block;
+
+    }
+
+    .appeal-2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .appeal-2-title {
+        font-size: 3rem;
+        line-height: 33px;
+    }
+
+    .btn-thin {
+        width: 100%;
+        display: inline-block;
+        padding-left: 0;
+        padding-right: 0;
+        line-height: 21px;
+
+    }
+
+    .footer-infos {
+        display: none;
+    }
+
+    .btn-small {
+        line-height: 44px;
+    }
+
+    .footer-line {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .footer-buttons {
+        padding: 0;
+        margin-left: 9px;
+    }
+
+    .footer-end-content {
+        padding-top: 20px;
+    }
+
+    .footer-logo {
+        padding-top: 8px;
+    }
+
+    .copyright {
+        font-weight: 400;
+    }
+}
+
+/* Tablet size */
+@media (max-width:1080px) {
+
+
+    .header-list {
+        display: none;
+    }
+
+    .main .wrapper {
+        max-width: 650px;
+    }
+
+    .wrapper {
+        max-width: 700px;
+    }
+
+    .footer .wrapper {
+        max-width: 990px;
+    }
+
+    .footer-list {
+        margin-right: 80px;
+    }
+
+    .footer-info {
+        width: 22%;
+    }
+}
